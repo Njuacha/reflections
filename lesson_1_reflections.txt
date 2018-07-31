@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+     i was able to see lines removed from old file and the ones
+added. This enabled me to focus on just the changes i had made and therefore find the error faster since this where the error most likely came from.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+     I would see changes made quicker and this saves time in debugging and also it minimizes my chances of spoiling my correct codes in an attempt to fix a bug.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+     The advantage of saving when i wish is that i save changes that make sense to me whereas with automatic saving the changes might not always be relevant to me. However automatic saving can help save even when i forget to save.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+     Well it can be usefull at times to save multiple files in one commit if the file are interraleted and one change in one file must lead to a change in another as it is the case with web page files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+     git log enables one to see all commits that were made in a repository This commits represent the state your files are different times between major signifant changes to you. git diff is used to see changes in your files between two commits in order words different improved leaps of your files. To use git log just enter where your repository is located and then type git log. While to use git diff after entering your repository location you should git log to get the different commits and then copy the id's of the comits which you are interested in comparing and paste them after the "git diff" with a space separating them. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    i have less fear that any wrong changes would be irreversible because i can easily go back to a state before i made those changes. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
