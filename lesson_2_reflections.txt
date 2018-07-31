@@ -1,5 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
  
-When you initialize a repository you change a directory into a repository. You need to do this so that this directory becomes a repository and can thus produce expected output with git functions.
+    When you initialize a repository you change a directory into a repository. You need to do this so that this directory becomes a repository and can thus produce expected output with git functions.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area contains files which are to be commited. All the files in the working directory are not neccessarily in the staging area; Only files which have been added to it from the working directory. The repository contains a history of all changes to files. This offers one the possibility to comit only files which have been changed and make the repository more relevant. In the sense it truely represent the files at different stages.
+
+
 
 

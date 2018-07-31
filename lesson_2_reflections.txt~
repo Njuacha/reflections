@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+ 
+When you initialize a repository you change a directory into a repository. You need to do this so that this directory becomes a repository and can thus produce expected output with git functions.
+
+
