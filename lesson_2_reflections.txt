@@ -6,6 +6,10 @@ How is the staging area different from the working directory and the repository?
 
     The staging area contains files which are to be commited. All the files in the working directory are not neccessarily in the staging area; Only files which have been added to it from the working directory. The repository contains a history of all changes to files. This offers one the possibility to comit only files which have been changed and make the repository more relevant. In the sense it truely represent the files at different stages.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    The staging area permits me to select the files I want to put together in a commit. In this way I can limit my commit to just the files whose changes i consider as being one logical change and commit that change.
+
 
 
 
